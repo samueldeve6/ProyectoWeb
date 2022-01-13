@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Digital Maths</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estiloss.css">
+    <link rel="stylesheet" href="PROYECTO/Menu1.html">
+
+      <style>
+    body {background-color: #4642B8;padding: 100px;
+    font-family: serif;} 
+    #menu { background-color: #000; }
+
+    #menu ul{ list-style: none;
+    margin: 0;
+    padding: 0;}
+    #menu ul li{
+        display: inline-block;
+        position: relative;}
+    #menu ul li a{ color: white; 
+      text-decoration: none;
+    transition: background-color .5s;
+    display:block;
+    padding: 13px 28px;
+}
+    #menu ul li a:hover { background-color: #099B8A;    
+
+    }
+    #submenu {
+        position: absolute;
+        background: #575655;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1s;
+
+    }
+    #submenu li a {
+        display: block;
+        padding: 15px;
+        color: #fff;
+        text-decoration: none; 
+        font-family: "Open sans"
+  }
+
+  #menu li:hover #submenu{
+    visibility: visible;
+    opacity: 1;
+  }
+    </style>
+</head>
+<div id="menu" class="container">
+        <ul> <li>
+             <a class="navbar-brand" >
+             <img src="Img/logo.png" width="200" height="75" alt="">
+             </a>
+             </li>
+             <li>
+                <a href="Menu1.html">Inicio</a>
+            </li>
+            <li>
+                <a href="">Álgebra lineal</a>
+                <ul id="submenu">
+                    <li ><a href="Algebra.html">Capitulo 1</a></li>
+                </ul>
+
+            </li>
+            <li>
+                <a href="">Cálculo diferencial</a>
+                <ul id="submenu">
+                    <li ><a href="Matemáticas_1.html">Capitulo 1</a></li>
+                </ul>
+
+            </li>
+            <li >
+                <a href="">Matemáticas discretras</a>
+                <ul id="submenu">
+                    <li ><a href="Matemáticas-discretas.html">Capitulo 1</a></li>
+                </ul>
+
+            </li>
+              
+ </ul>
+
+    </div>
+
+
+<body text="yellow" background="Img/unnamed.jpg" bgproperties="fixed">
+
+
+    <div class="container">
+    <h3 style="color:red" align="center">
+    Reglas de derivación 
+    </h3>
+
+    
+        <p> Las reglas de derivación son los métodos que se emplean para el cálculo de la derivada de una función. Dependiendo del tipo de función, se utiliza el más adecuado. 
+        </p> 
+        <h5 style="color:orange" align="left">
+            Regla de la constante 
+        </h5>
+         <p>
+             La regla de la constante define que la derivada de una constante siempre es cero. </br>
+         </p>
+
+         <img src="Img/212.png">
+         <p>Ejemplo: </br> </p>   
+         <img src="Img/987.png">
+        <h5 style="color:orange" align="left">
+        Regla de la derivada de una constante por una función 
+        </h5>
+            <p>
+                La derivada del producto de una constante por una función es igual al producto de la constante por la derivada de la función. </br>
+            </p>  
+            <img src="Img/456.png">
+            <p>
+                Ejemplo:
+            </p>
+            <img src="Img/567.png">
+
+            <h5 style="color:orange" align="left">
+             Regla de la derivada de la función identidad  
+            </h5>
+            <p>
+                La regla de la derivada de la función identidad define que la derivada de la función identiidad es 1.
+            </p>
+            <img src="Img/Captura23.png"> </br>
+            <p>Ejemplo:</p>
+            <img src="Img/Capt1.png"> 
+
+        <h5 style="color:orange" align="left">
+        Regla de la derivada de la función exponencial de base Euler
+        </h5> 
+          <p>Si la base de la función exponencial es el número “e” su derivada es igual a la derivada del exponente por el número elevado al exponente.</p>  
+           <img src="Img/Expo.png">
+           <p>Ejemplos:</p>
+           <img src="Img/C1.png">
+
+
+        <h5 style="color:orange" align="left">
+            Regla de la potencia 
+        </h5>
+               <p>
+                Para hallar la derivada de una función F(x) mediante la regla de la potencia se llevan a cabo los siguientes pasos:</br> </br>
+                1. Multiplicar el exponente por el coeficiente que acompaña a la x. </br> </br>
+                2. El ultimo paso es restarle 1 al exponente y este es el resultado final. </br> </br>
+                3. Si en algun caso despues de realizar la derivada de la función el exponente de X es cero se multiplica el coeficiente que acompaña a la X por 1 ya que todo número elevado a la 0 es 1. </br> </br>
+                Algunos ejemplos a continuación: </br> </br>
+                Halle la derivada de las siguientes funciones. </br> </p>
+             
+                <img src="Img\Captura21.png" width="160" height="130"> <p> En este caso se multiplico -4 por el 1 que acompaña a la X y se le resto 1 al exponente de la X. </br> </p>
+                <img src="Img\Captura221.png" width="160" height="130"> <p> En este caso se deriva de igual forma pero como el exponente termina siendo negativo se deja a la X en el denominador con su exponente positivo por regla de potenciación, esto con el fin de que la expresión no quede con el exponente negativo.</br> </p>
+                <img src="Img\C.png" width="160" height="130"> <p> En este caso se transforma la función a potencia para poder realizar la derivada. </br>
+                </p>
+                <img src="Img\Captura.png" width="160" height="130"> <p> En este caso se transforma la función a potencia para poder realizar la derivada. </br> </p>
+                <iframe width="420" height="320" src="https://www.youtube.com/embed/-PjdQi5Foio" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </br>
+                <p>Posteriormente cabe recordar que se deben tener en cuenta las reglas de la potenciación para no presentar dificultades al momento de realizar la derivada.
+                </p>
+            </div>
+            
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>

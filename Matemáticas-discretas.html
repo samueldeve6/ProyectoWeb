@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Digital Maths</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="PROYECTO/Menu1.html">
+  <style>
+    body {padding: 100px;
+	font-family: serif;} 
+	#menu { background-color: #000; }
+
+	#menu ul{ list-style: none;
+	margin: 0;
+	padding: 0;}
+	#menu ul li{
+		display: inline-block;
+		position: relative;}
+	#menu ul li a{ color: white; 
+      text-decoration: none;
+    transition: background-color .5s;
+    display:block;
+    padding: 13px 28px;
+}
+    #menu ul li a:hover { background-color: #099B8A; 	
+
+    }
+    #submenu {
+    	position: absolute;
+    	background: #575655;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1s;
+
+    }
+    #submenu li a {
+    	display: block;
+        padding: 15px;
+        color: #fff;
+        text-decoration: none; 
+    	font-family: "Open sans"
+  }
+
+  #menu li:hover #submenu{
+  	visibility: visible;
+  	opacity: 1;
+  }
+	</style>
+</head>
+<div id="menu" class="container">
+		<ul> <li>
+			 <a class="navbar-brand" >
+             <img src="Img/logo.png" width="200" height="75" alt="">
+             </a>
+             </li>
+			 <li>
+				<a href="Menu1.html">Inicio</a>
+			</li>
+			<li>
+				<a href="">Álgebra lineal</a>
+				<ul id="submenu">
+					<li ><a href="Algebra.html">Capitulo 1</a></li>
+				</ul>
+
+			</li>
+			<li>
+				<a href="">Cálculo diferencial</a>
+				<ul id="submenu">
+					<li ><a href="Matemáticas_1.html">Capitulo 1</a></li>
+				</ul>
+
+			</li>
+			<li >
+				<a href="">Matemáticas discretras</a>
+				<ul id="submenu">
+					<li ><a href="Matemáticas-discretas.html">Capitulo 1</a></li>
+				</ul>
+
+			</li>
+			  
+ </ul>
+
+	</div>
+
+<body>
+	<div id="estilo1" class="container">
+	<h3 align="center">	
+	  Teoria de conjuntos
+	</h3>
+	<h5>
+      Operaciones entre conjuntos
+	</h5>
+	<h5>
+		Intersección 
+	</h5>
+	<p>
+		La intersección de dos (o más) conjuntos es una operación que resulta en otro conjunto que contiene los elementos comunes o  ( repetidos)  a los conjuntos de partida o iniciales. </br>
+		El simbolo con el que se representa la intersección es este: ∩ </br>
+		Ejemplo: 
+
+        F = { amarillo, azul, rojo, verde. morado }  </br>
+        G = { verde, cafe, rosado, negro, gris, rojo } </br>    
+        Entonces F ∩ G = { verde, rojo }  ya que son los elementos que se repiten en ambos conjuntos. </br>
+        Sean los conjuntos: </br>
+        A = { 3,5,7,9 } </br>  
+        B = { 1,2,3,4,5 } </br>    
+        C = { 4,5,6,7,8 } </br> </p>
+        <img src="Img/C22.png" height="210" width="220">
+        <p>Sus intersecciónes son: </br>
+        A ∩ B = { 3, 5 }</br>  
+        A ∩ C = { 5, 7 }</br>
+        B ∩ C = { 4, 5 }</br>  
+        C ∩ A = { 4, 5 }</br>
+        </p>
+        <p>Video complemento:</p> 
+        <iframe width="420" height="300" src="https://www.youtube.com/embed/2OSlnP8Ki6k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<h5>
+		Diferencia
+	</h5>
+	<p>
+		Sean A y B dos conjuntos cualquiera. El conjunto diferencia de A y B, que se representa por A - B, es el conjunto formado por todos los elementos que están en A, pero no están en B. </br>
+	    Sean A y B dos conjuntos. La diferencia de conjuntos A - B es: </br>
+	</p>
+	<img src="Img/Ejem.png">
+    <p>
+    	Los elementos que pertenecen a la diferencia de conjuntos A - B son aquellos elementos que pertenecen a A  y no pertenecen a B.</br>
+    	Ejemplo: Sean los conjuntos A = { a,b,c,d,e } y B = { a,e,i,o  } la diferencia de los conjuntos es A - B es A - B = { b,c,d }
+    </p>
+    <img src="Img/c1a.png">
+    <p>Video complemento:</p> 
+    <iframe width="420" height="300" src="https://www.youtube.com/embed/HycTCvOlTo0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<h5>
+		Diferencia simétrica
+	</h5>
+	<p>
+		La diferencia simétrica de dos conjuntos es el conjunto cuyos elementos son aquellos que pertenecen a alguno de los conjuntos iniciales, sin pertenecer a ambos a la vez. Es decir, se ignora la instersección que existe entre los conjuntos y la diferencia simétrica son los demás elementos.</br> Por ejemplo, la diferencia simétrica de los conjuntos A = { 2,5,3 } y B= { 4,2,3,7 } es A△B = { 4,5,7 } </br>
+	Ejemplo: Sean los conjuntos A = { 1,2,3,6 } y B = { 2,4,6,7,8 } </br>
+	La diferencia simétrica de A y B es: A△B = { 1,3,4,7,8 } como se muestra en la imagen.
+	</p>
+	<img src="Img/Captura291.png">
+	<p>Video complemento:</p>
+    <iframe width="420" height="300" src="https://www.youtube.com/embed/_fcr1F9I01I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<h5>
+		Complemento 
+	</h5>
+     <p>
+     	Es la operación que nos permite formar un conjunto con todos los elementos del conjunto de referencia o universal, que no están en el conjunto. Es decir dado un conjunto A que esta incluido en el conjunto universal U, entonces el conjunto A' es el conjunto formado por todos los elementos del conjunto universal pero sin considerar a los elementos que pertenezcan al conjunto A. En esta operación el complemento de un conjunto se denota con un apostrofe sobre el conjunto que se opera, algo como esto A' en donde el el conjunto A es el conjunto del cual se hace la operación de complemento. </br>
+     	Ejemplo: Dado el conjunto Universal U = { 1,2,3,4,5,6,7,8,9 } y el conjunto A = { 1,2,9 }, el conjunto A' estará formado por los siguientes elementos A'={3,4,5,6,7,8}. Usando diagramas de Venn se tendría lo siguiente: </br>
+     </p>
+     <img src="Img/6547.png"> </br>
+     </br>
+     <p>Video complemento:</p> 
+     <iframe width="420" height="300" src="https://www.youtube.com/embed/2JzZr7YUbdY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </br></br>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

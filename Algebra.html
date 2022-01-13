@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Digital Maths</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos-copia.css">
+    <link rel="stylesheet" href="PROYECTO/Menu1.html">
+      <style>
+    body {padding: 100px;
+    font-family: serif;} 
+    #menu { background-color: #000; }
+
+    #menu ul{ list-style: none;
+    margin: 0;
+    padding: 0;}
+    #menu ul li{
+        display: inline-block;
+        position: relative;}
+    #menu ul li a{ color: white; 
+      text-decoration: none;
+    transition: background-color .5s;
+    display:block;
+    padding: 13px 28px;
+}
+    #menu ul li a:hover { background-color: #099B8A;    
+
+    }
+    #submenu {
+        position: absolute;
+        background: #575655;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1s;
+
+    }
+    #submenu li a {
+        display: block;
+        padding: 15px;
+        color: #fff;
+        text-decoration: none; 
+        font-family: "Open sans"
+  }
+
+  #menu li:hover #submenu{
+    visibility: visible;
+    opacity: 1;
+  }
+    </style>
+</head>
+<div id="menu" class="container">
+        <ul> <li>
+             <a class="navbar-brand" >
+             <img src="Img/logo.png" width="200" height="75" alt="">
+             </a>
+             </li>
+             <li>
+                <a href="Menu1.html">Inicio</a>
+            </li>
+            <li>
+                <a href="">Álgebra lineal</a>
+                <ul id="submenu">
+                    <li ><a href="Algebra.html">Capitulo 1</a></li>
+                </ul>
+
+            </li>
+            <li>
+                <a href="">Cálculo diferencial</a>
+                <ul id="submenu">
+                    <li ><a href="Matemáticas_1.html">Capitulo 1</a></li>
+                </ul>
+
+            </li>
+            <li >
+                <a href="">Matemáticas discretras</a>
+                <ul id="submenu">
+                    <li ><a href="Matemáticas-discretas.html">Capitulo 1</a></li>
+                </ul>
+
+            </li>
+              
+ </ul>
+
+    </div>
+
+<body> 
+
+    <div  id="estilo" class="container" style="background-color:#002F34">
+        <h3 style="color:red" align="center">
+             La magnitud de un vector en R2 
+        </h3>
+        <p class="text-left">Los vectores en R2 son aquellos que están ubicados en un plano cartesiano de ejes X y Y. </br>
+            La magnitud de un vector también conocida como la Norma de un vector, es la distancia entre el punto inicial A y el punto final B, se representa como vector AB. </br>Para hallar la magnitud de un vector debemos aplicar la siguiente formula: </br>
+        </p>
+        <img src="Img\vector_en_forma_algebraica.png" width="300" height="180">
+        </br>
+        <p class="text-left">
+            Un ejemplo de la magnitud de un vector cuando su punto de partida es (0,0) : </br> 
+        </p>
+        <img src="Img\maxresdefault.jpg" width="300" height="180"> </br> 
+        <p>Video complemento:</p>
+        <iframe width="294" height="220" src="https://www.youtube.com/embed/ue4_-Z6454o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </br>
+        <p class="text-left">
+            En el caso de que el punto de partida no es (0,0) se usa la siguiente formula: </br> 
+        </p>
+        <img src="Img\Captur.png" width="295" height="227"> </br> 
+        <p class="text-left">
+            Un ejemplo para hallar la magnitud un vector que no tiene punto de partida (0,0) es el siguiente vector AB: </br> 
+        </p>
+        <img src="Img\saassa.png" width="295" height="227"> </br> </br>
+        <p class="text-left">
+            Al aplicar la formula para este caso la ecuación se expresa de la siguiente manera: </br> 
+        </p>
+        <img src="Img\Captura123456.png" width="297" height="227"> </br> 
+        <p>Video complemento:</p>
+        <iframe width="300" height="225" src="https://www.youtube.com/embed/IYoQPHpU4l4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </br> </br> 
+        <h3  align="center">
+            La dirección de un vector en R2 </br>
+        </h3>
+        <p>
+            La dirección de un vector es la medida del ángulo que hace con una línea horizontal. </br>
+            La formula que se utiliza para hallar la dirección de un vector es la siguiente: </br>
+        </p>
+        <img src="Img/hqdefault.jpg" width="420" height="320"> </br>
+        <p>
+            donde arcotangente es igual a y/x en terminos del plano cartesiano.
+            </br>
+            Un ejemplo del calculo de la dirección del vector cuando el punto de partida del vector es (0,0) es el siguiente:
+            </br>
+            Halle la dirección del vector (-3,-5):
+            </br>
+            Como el vector se encuentra en el tercer cuadrante le sumamos 180 al resultado obtenido de la siguiente manera: </br>
+        </p>
+        <img src="Img\cpp.png" width="289" height="215"> </br>
+        <p>
+            por lo tanto 239° es el resultado final. </br>
+            En el caso de que su punto de partida no sea (0,0) se halla con la siguiente formula:
+        </p>
+        <img src="Img/23.png" width="100" height="80">
+        <p>
+            donde ( x 1 , y 1 ) es el punto inicial y ( x 2 , y 2 ) es el punto terminal. </br>
+            Un ejemplo para hallar la dirección un vector que no tiene punto de partida (0,0) es el siguiente vector:
+            Encuentre la dirección del vector cuyo punto inicial P está en (2,3) y punto final Q está en (5,8).</br>
+            Se aplica la formula así
+        </p>
+        <img src="Img\21.png" width="100" height="80">
+        <p>
+            por lo tanto al realizar las operaciones se obtiene como resultado
+        </p>
+        <img src="Img\22.png" width="100" height="80"> 
+        <p>
+            el siguiente paso es calcular el arcotangente de 5/3 así:
+        </p>
+        <img src="Img\222.png" width="100" height="80">
+        <p>
+            ya que los dos son positivos (5 en Y, 3 en X) se encuentra primer cuandrante su resultado final es 59°. </br> 
+        Video complemento:
+        </p>
+
+        <iframe width="400" height="230" src="https://www.youtube.com/embed/kr3DTr3rytw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        </br>
+        <p>Video complemento:</p>
+        <iframe width="400" height="230" src="https://www.youtube.com/embed/9S-wAmQd0c0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        </br>
+        </br>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
